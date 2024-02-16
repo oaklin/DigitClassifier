@@ -3,7 +3,7 @@ A Digit Image Classifier built with a pretrained Vision Transformer (ViT) model 
 
 
 ## Streamlit Web App
-![alt text](https://https://github.com/oaklin/DigitClassifier/blob/master/pics/streamlit.jpg?raw=true)
+![alt text](https://github.com/oaklin/DigitClassifier/blob/master/pics/streamlit.jpg?raw=true)
 
 - Streamlit is framework for building webapps. The Streamlit webapp will send a HTTP request with the image to a FastAPI server. Go to ``http://127.0.0.1:8501/`` to try the Digit Image Classifier web app.
 
@@ -17,7 +17,7 @@ A Digit Image Classifier built with a pretrained Vision Transformer (ViT) model 
 
   ``docker-compose -f "docker-compose.yml" up -d --build``
 
-![alt text](https://https://github.com/oaklin/DigitClassifier/blob/master/pics/docker%20compose.jpg?raw=true)
+![alt text](https://github.com/oaklin/DigitClassifier/blob/master/pics/docker%20compose.jpg?raw=true)
 
 - Execute the command to stop the docker:
   
