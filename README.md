@@ -12,11 +12,10 @@ From a command line within the project directory (see screenshot)
 
 
 ## Streamlit Web App
-![alt text](https://github.com/oaklin/DigitClassifier/blob/master/pics/streamlit.jpg?raw=true)
-
 Test the application using the webpage at ``http://127.0.0.1:8501/``
 - It was built using Streamlit. The Streamlit webapp will send a HTTP request with the image to a FastAPI server. 
 
+![alt text](https://github.com/oaklin/DigitClassifier/blob/master/pics/streamlit.jpg?raw=true)
 
 
 
