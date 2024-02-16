@@ -1,0 +1,2 @@
+# Ignore all directories with the word "cache" somewhere in their names
+**/*cache*/
