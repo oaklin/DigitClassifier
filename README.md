@@ -3,9 +3,9 @@ A Digit Image Classifier built with a pretrained Vision Transformer (ViT) model 
 
 
 ## Streamlit Web App
-![alt text](https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/DigitRecognizer.png?raw=true)
+![alt text](https://https://github.com/oaklin/DigitClassifier/blob/master/pics/streamlit.jpg)
 
-- Streamlit is framework for building webapp. The Streamlit webapp will send a HTTP request with the image to FastAPI server. Go to ``http://127.0.0.1:8501/`` to try the Digit Recognizer web app.
+- Streamlit is framework for building webapps. The Streamlit webapp will send a HTTP request with the image to a FastAPI server. Go to ``http://127.0.0.1:8501/`` to try the Digit Image Classifier web app.
 
 ## FastAPI server
 - FastAPI is a framework for building API in Python. Go to ``http://127.0.0.1:8000/docs`` to view the API served. FastAPI will call the VIT model for prediction. FastAPI server will then send back the response to the Streamlit webapp
@@ -17,7 +17,7 @@ A Digit Image Classifier built with a pretrained Vision Transformer (ViT) model 
 
   ``docker-compose -f "docker-compose.yml" up -d --build``
 
-![alt text](https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/docker-compose.png?raw=true)
+![alt text](https://https://github.com/oaklin/DigitClassifier/blob/master/pics/docker%20compose.jpg)
 
 - Execute the command to stop the docker:
   
